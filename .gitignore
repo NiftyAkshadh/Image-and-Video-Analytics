@@ -1,0 +1,26 @@
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Data and generated outputs (live on Google Drive, too big for git)
+data/
+FPGAN/
+outputs/
+INTERPOLATION/
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environment and OS files
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.zip
